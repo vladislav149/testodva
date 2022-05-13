@@ -1,0 +1,41 @@
+/* mixins */
+@import 'base/mixins.scss';
+
+/* base */
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/typography';
+@import 'base/default';
+
+/* blocks */
+@import 'blocks/header/header.scss';
+@import 'blocks/main/personal-acc/personal-acc.scss';
+@import 'blocks/main/personal-info/personal-info.scss';
+@import 'blocks/footer/footer.scss';
+@import 'blocks/g-select/g-select.scss';
+/* Пример подключения*/
+/* @import 'blocks/component/component'; */
+/* pages */
+/* @import 'index'; */
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 0;
+	&:before,
+	&:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+html
+{
+	line-height: $mainLineHeight;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+	-webkit-font-smoothing: antialiased;
+}

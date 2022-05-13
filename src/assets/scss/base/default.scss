@@ -1,0 +1,55 @@
+.container {
+	max-width: $widescreen;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding: 0 20px;
+	@include mq(768px)
+	{
+		padding: 0 40px;
+	}
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.logo {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  margin-right: 28px;
+
+  &__img {
+    padding: 5px;
+  }
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 1.3;
+  color: $gray-100;
+}
+
+.btn {
+  background-color: $gray-300;
+  color: $white;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 12px;
+  line-height: 1;
+  width: 100%;
+}
