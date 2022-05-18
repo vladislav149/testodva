@@ -14,7 +14,11 @@
 			margin-right: 32px;
 		}
 
-		&--middle	{flex-grow: 1;}
+		&--middle
+		{
+			flex-grow: 1;
+			display: flex;
+		}
 
 		&--last
 		{
@@ -26,13 +30,21 @@
 		}
 	}
 
-	&__title	{margin-bottom: 13px;}
+	&__img {
+		width: 138px;
+		height: 138px;
+		object-fit: cover;
+		margin-right: 25px;
+	}
+
+	&__title	{margin-bottom: 15px;}
 
 	&__price
 	{
+		display: block;
 		font-size: 32px;
 		line-height: 1.2;
-		margin-bottom: 26px;
+		margin-bottom: 24px;
 		color: $accent-color;
 
 		&--pay
@@ -54,26 +66,9 @@
 		}
 	}
 
-	&__container
-	{
-		padding-left: 162px;
-		position: relative;
-		&::before
-		{
-			position: absolute;
-			content: "";
-			width: 138px;
-			height: 138px;
-			left: 0;
-			background-image: url(svg/logo-square.svg);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: 138px;
-		}
-	}
-
 	&__address
 	{
+		display: block;
 		font-size: 20px;
 		line-height: 1.4;
 		color: $accent-color;

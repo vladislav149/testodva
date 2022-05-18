@@ -80,20 +80,21 @@
 		&:not(:last-child)	{margin-bottom: 17px;}
 	}
 
-	&__call
-	{
-		line-height: 1.3;
-		margin-bottom: auto;
-	}
-
 	&__subtitle
 	{
-		font-size: 14px;
 		display: inline-block;
-		margin-bottom: 4px;
+		font-size: 14px;
+		line-height: 1.3;
+		margin-bottom: 5px;
 	}
 
-	&__phone	{font-size: 24px;}
+	&__phone
+	{
+		font-size: 24px;
+		line-height: 1.3;
+		width: fit-content;
+		margin-bottom: auto;
+	}
 
 	&__btn
 	{
