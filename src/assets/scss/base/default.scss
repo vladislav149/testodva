@@ -11,46 +11,7 @@
 	}
 }
 
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border: 0;
-}
-
 .main	{
 	margin-bottom: auto;
 	padding-bottom: 166px;
-}
-
-.logo	{
-	height: 48px;
-	width: 48px;
-	object-fit: cover;
-	margin-right: 25px;
-
-	&__img {
-		padding: 5px;
-	}
-}
-
-.subtitle	{
-	font-size: 14px;
-	line-height: 1.3;
-	color: $gray-100;
-}
-
-.btn {
-	background-color: $gray-300;
-	color: $white;
-	border-radius: 4px;
-	padding: 12px 24px;
-	font-size: 12px;
-	line-height: 1;
-	width: 100%;
 }

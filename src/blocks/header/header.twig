@@ -1,9 +1,10 @@
 <header class="header">
 	<div class="container">
-		<h1 class="sr-only">Управление паркингами</h1>
+		{% include "blocks/g-sr-only/g-sr-only.twig" with {'text': 'Управление паркингами', 'tag': 'h1'}%}
+
 		<nav class="header__inner">
-			<a class="logo" href="#">
-				<div class="logo__img">{% include "/assets/svg/logo.svg" %}</div>
+			<a class="header__logo" href="#">
+				<div class="header__logo-img">{% include "/assets/svg/logo.svg" %}</div>
 			</a>
 			<ul class="header__list">
 				<li class="header__item">

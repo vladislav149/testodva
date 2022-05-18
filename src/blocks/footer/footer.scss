@@ -18,6 +18,16 @@
 		min-height: 165px;
 		display: flex;
 		flex-direction: column;
+
+		.g-btn {
+			position: relative;
+			top: 3px;
+			padding: 16px;
+			font-size: 16px;
+			line-height: 1;
+			text-align: center;
+			margin-top: 3px;
+		}
 	}
 
 	&__form	{margin-bottom: auto;}
@@ -94,16 +104,5 @@
 		line-height: 1.3;
 		width: fit-content;
 		margin-bottom: auto;
-	}
-
-	&__btn
-	{
-		position: relative;
-		top: 3px;
-		padding: 16px;
-		font-size: 16px;
-		line-height: 1;
-		text-align: center;
-		margin-top: 3px;
 	}
 }

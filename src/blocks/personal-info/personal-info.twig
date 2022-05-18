@@ -4,7 +4,7 @@
 			<div class="personal-info__box">
 				<p class="personal-info__title">Сумма задолженности:</p>
 				<span class="personal-info__price">1635,48 руб</span>
-				<button class="btn">Оплатить</button>
+				{% include "blocks/g-btn/g-btn.twig"  with {'text': 'Оплатить'}%}
 			</div>
 
 			<div class="personal-info__box personal-info__box--middle">
@@ -12,7 +12,7 @@
 					{% include "/assets/svg/logo-square.svg" %}
 				</div>
 				<div class="personal-info__container">
-					<p class="personal-info__title subtitle">Дом по адресу</p>
+					<p class="personal-info__title personal-info__title--address">Дом по адресу</p>
 					<span class="personal-info__address">Вавилова ул, 67</span>
 					<span class="personal-info__city">Москва</span>
 				</div>
@@ -21,7 +21,7 @@
 			<div class="personal-info__box personal-info__box--last">
 				<h2 class="personal-info__price personal-info__price--pay">Оплата квитанций онлайн</h2>
 				<div class="personal-info__box-btn">
-					<button class="btn personal-info__btn" type="button">Перейти к оплате</button>
+					{% include "blocks/g-btn/g-btn.twig"  with {'text': 'Перейти к оплате'}%}
 				</div>
 			</div>
 		</div>

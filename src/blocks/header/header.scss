@@ -5,10 +5,23 @@
 	line-height: 1.33;
 	color: $accent-color;
 	box-shadow: inset 0px -1px 0px #e6e6e6;
+
 	&__inner
 	{
 		display: flex;
 		align-items: center;
+	}
+
+	&__logo
+	{
+		height: 48px;
+		width: 48px;
+		object-fit: cover;
+		margin-right: 25px;
+	}
+		
+	&__logo-img {
+		padding: 5px;
 	}
 
 	&__list

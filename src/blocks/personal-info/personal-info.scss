@@ -37,14 +37,22 @@
 		margin-right: 25px;
 	}
 
-	&__title	{margin-bottom: 15px;}
+	&__title
+	{
+		margin-bottom: 19px;
+		font-size: 14px;
+		line-height: 1.3;
+		color: $gray-100;
+
+		&--address {margin-bottom: 15px;}
+	}
 
 	&__price
 	{
 		display: block;
 		font-size: 32px;
 		line-height: 1.2;
-		margin-bottom: 24px;
+		margin-bottom: 26px;
 		color: $accent-color;
 
 		&--pay
@@ -74,12 +82,13 @@
 		color: $accent-color;
 	}
 
-	&__box-btn	{padding-right: 6px;}
-
-	&__btn
+	&__box-btn	
 	{
+		padding-right: 6px;
+		.g-btn {
 		font-size: 16px;
 		font-weight: 500;
 		padding: 20px 24px;
+	}
 	}
 }
